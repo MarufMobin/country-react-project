@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.compo-container {
+  width: 1170px;
+  margin: 0px auto;
+}
+.compo-box img{
+  width: 100%;
+}
+
+.compo-box{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+}
